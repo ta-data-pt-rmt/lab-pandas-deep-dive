@@ -7205,10 +7205,13 @@ INSERT INTO `apple_store` (`id`, `track_name`, `size_bytes`, `price`, `rating_co
 INSERT INTO `apple_store` (`id`, `track_name`, `size_bytes`, `price`, `rating_count_tot`, `rating_count_ver`, `user_rating`, `user_rating_ver`, `prime_genre`) VALUES ('1186126548', 'Escape Game: illumination', '52342784', '0', '23', '23', '4.5', '4.5', 'Games');
 INSERT INTO `apple_store` (`id`, `track_name`, `size_bytes`, `price`, `rating_count_tot`, `rating_count_ver`, `user_rating`, `user_rating_ver`, `prime_genre`) VALUES ('1186384912', 'Demolition Derby Virtual Reality (VR) Racing', '168774656', '0', '18', '18', '4', '4', 'Games');
 INSERT INTO `apple_store` (`id`, `track_name`, `size_bytes`, `price`, `rating_count_tot`, `rating_count_ver`, `user_rating`, `user_rating_ver`, `prime_genre`) VALUES ('1187128255', '飞刀传奇-动作武侠热血江湖即时PK传奇（登录爆金装）', '537462784', '0.99', '0', '0', '0', '0', 'Games');
-INSERT INTO `apple_store` (`id`, `track_name`, `size_bytes`, `price`, `rating_count_tot`, `rating_count_ver`, `user_rating`, `user_rating_ver`, `prime_genre`) VALUES ('1187279979', 'Add-Ons Studio for Minecraft', '22999040', '2.99', '97', '97', '3', '3', 'Games');
 INSERT INTO `apple_store` (`id`, `track_name`, `size_bytes`, `price`, `rating_count_tot`, `rating_count_ver`, `user_rating`, `user_rating_ver`, `prime_genre`) VALUES ('1187282363', 'Plead the Fifth - The Game', '27853824', '2.99', '11', '0', '4', '0', 'Games');
 INSERT INTO `apple_store` (`id`, `track_name`, `size_bytes`, `price`, `rating_count_tot`, `rating_count_ver`, `user_rating`, `user_rating_ver`, `prime_genre`) VALUES ('1187617475', 'Kubik', '126644224', '0', '142', '75', '4.5', '4.5', 'Games');
 INSERT INTO `apple_store` (`id`, `track_name`, `size_bytes`, `price`, `rating_count_tot`, `rating_count_ver`, `user_rating`, `user_rating_ver`, `prime_genre`) VALUES ('1187682390', 'VR Roller-Coaster', '120760320', '0', '30', '30', '4.5', '4.5', 'Games');
 INSERT INTO `apple_store` (`id`, `track_name`, `size_bytes`, `price`, `rating_count_tot`, `rating_count_ver`, `user_rating`, `user_rating_ver`, `prime_genre`) VALUES ('1187779532', 'Bret Michaels Emojis + Lyric Keyboard', '111322112', '1.99', '15', '0', '4.5', '0', 'Utilities');
 INSERT INTO `apple_store` (`id`, `track_name`, `size_bytes`, `price`, `rating_count_tot`, `rating_count_ver`, `user_rating`, `user_rating_ver`, `prime_genre`) VALUES ('1187838770', 'VR Roller Coaster World - Virtual Reality', '97235968', '0', '85', '32', '4.5', '4.5', 'Games');
 INSERT INTO `apple_store` (`id`, `track_name`, `size_bytes`, `price`, `rating_count_tot`, `rating_count_ver`, `user_rating`, `user_rating_ver`, `prime_genre`) VALUES ('1188375727', 'Escape the Sweet Shop Series', '90898432', '0', '3', '3', '5', '5', 'Games');
+
+
+
+
