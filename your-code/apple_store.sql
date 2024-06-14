@@ -15,6 +15,28 @@ CREATE TABLE `apple_store`
     `prime_genre`	varchar(300)
 );
 
+SELECT * FROM apple_store;
+
+SELECT COUNT(*) AS total_apps
+FROM apple_store;
+
+SELECT AVG(CAST(user_rating AS DECIMAL(3,1))) AS average_rating
+FROM apple_store;
+
+SELECT COUNT(*) AS apps_with_rating_4_or_more
+FROM apple_store
+WHERE CAST(user_rating AS DECIMAL(3,1)) >= 4;
+
+SELECT COUNT(DISTINCT prime_genre) AS total_genres
+FROM apple_store;
+
+SELECT prime_genre, COUNT(*) AS free_apps_count
+FROM apple_store
+WHERE CAST(price AS DECIMAL(10,2)) = 0
+GROUP BY prime_genre
+ORDER BY free_apps_count DESC
+LIMIT 1;
+
 INSERT INTO `apple_store` (`id`, `track_name`, `size_bytes`, `price`, `rating_count_tot`, `rating_count_ver`, `user_rating`, `user_rating_ver`, `prime_genre`) VALUES ('281656475', 'PAC-MAN Premium', '100788224', '3.99', '21292', '26', '4', '4.5', 'Games');
 INSERT INTO `apple_store` (`id`, `track_name`, `size_bytes`, `price`, `rating_count_tot`, `rating_count_ver`, `user_rating`, `user_rating_ver`, `prime_genre`) VALUES ('281796108', 'Evernote - stay organized', '158578688', '0', '161065', '26', '4', '3.5', 'Productivity');
 INSERT INTO `apple_store` (`id`, `track_name`, `size_bytes`, `price`, `rating_count_tot`, `rating_count_ver`, `user_rating`, `user_rating_ver`, `prime_genre`) VALUES ('281940292', '"WeatherBug - Local Weather, Radar, Maps, Alerts"', '100524032', '0', '188583', '2822', '3.5', '4.5', 'Weather');
