@@ -1,8 +1,8 @@
-﻿CREATE SCHEMA `apple`;
+﻿CREATE SCHEMA apple;
 
-USE `apple`;
+USE apple;
 
-CREATE TABLE `apple_store` 
+CREATE TABLE apple_store 
 (
     `id`	varchar(300),
     `track_name`	varchar(300),
@@ -14,6 +14,9 @@ CREATE TABLE `apple_store`
     `user_rating_ver`	varchar(300),
     `prime_genre`	varchar(300)
 );
+
+Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '﻿CREATE SCHEMA apple' at line 1
+
 
 INSERT INTO `apple_store` (`id`, `track_name`, `size_bytes`, `price`, `rating_count_tot`, `rating_count_ver`, `user_rating`, `user_rating_ver`, `prime_genre`) VALUES ('281656475', 'PAC-MAN Premium', '100788224', '3.99', '21292', '26', '4', '4.5', 'Games');
 INSERT INTO `apple_store` (`id`, `track_name`, `size_bytes`, `price`, `rating_count_tot`, `rating_count_ver`, `user_rating`, `user_rating_ver`, `prime_genre`) VALUES ('281796108', 'Evernote - stay organized', '158578688', '0', '161065', '26', '4', '3.5', 'Productivity');
