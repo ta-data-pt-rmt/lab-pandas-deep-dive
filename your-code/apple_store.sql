@@ -1,6 +1,5 @@
-﻿CREATE SCHEMA `apple`;
 
-USE `apple`;
+USE applestore;
 
 CREATE TABLE `apple_store` 
 (
